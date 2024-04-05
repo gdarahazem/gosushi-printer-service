@@ -1,0 +1,33 @@
+{
+  "name": "node-pdf-printing-service",
+  "version": "1.0.0",
+  "description": "Service d'impression PDF super simple avec NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alfreddagenais/node-pdf-printing-service.git"
+  },
+  "keywords": [
+    "Automation",
+    "Impression",
+    "javascript"
+  ],
+  "author": "Alfred Dagenais <jesuis@alfreddagenais.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alfreddagenais/node-pdf-printing-service/issues"
+  },
+  "homepage": "https://github.com/alfreddagenais/node-pdf-printing-service#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "crypto-random-string": "^3.3.1",
+    "express": "^4.17.1",
+    "nodemon": "^3.1.0",
+    "pdf-to-printer": "^1.7.0",
+    "standard": "^16.0.3"
+  }
+}
