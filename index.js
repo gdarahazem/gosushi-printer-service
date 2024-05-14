@@ -19,7 +19,7 @@ app.use(bodyParser.raw({ type: 'application/pdf', limit: '50mb' }))
 
 app.post('', async (request, response) => {
   // Define an array with the printer names
-  const printerNames = ['EPSON TM-T20X Receipt', // 'EPSON TM-T20X Receipt1',
+  const printerNames = ['EPSON TM-T20X Receipt' // 'EPSON TM-T20X Receipt1',
     // 'EPSON TM-T20X Receipt2'
   ]
 
